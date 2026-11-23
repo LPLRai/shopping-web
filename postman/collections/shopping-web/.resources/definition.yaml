@@ -6,3 +6,6 @@ variables:
   - key: json_web_token_1een
     secret: true
     disabled: false
+  - key: json_web_token_1e3d
+    secret: true
+    disabled: false

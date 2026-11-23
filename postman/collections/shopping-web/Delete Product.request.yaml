@@ -1,0 +1,8 @@
+$kind: http-request
+url: localhost:8000/product/6b0404fa11a03339937284a5
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_1e3d}}"
+order: 4543
