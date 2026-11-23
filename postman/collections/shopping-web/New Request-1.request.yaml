@@ -1,0 +1,8 @@
+$kind: http-request
+name: New Request
+url: localhost:8000/user/login
+method: POST
+body:
+  type: json
+  content: '{ "email": "rai@test.com", "password": "qwerty" }'
+order: 2000
