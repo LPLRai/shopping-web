@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://100.53.185.174:8000/order/mine
+method: GET
+order: 7000

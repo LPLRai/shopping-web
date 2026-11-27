@@ -1,0 +1,9 @@
+$kind: http-request
+url: |
+  http://100.53.185.174:8000/product/6b041173a738faf48c9161eb
+method: DELETE
+auth:
+  type: bearer
+  credentials:
+    token: "{{json_web_token_0twk}}"
+order: 5000

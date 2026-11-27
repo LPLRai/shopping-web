@@ -5,15 +5,30 @@ body:
   type: json
   content: "[\r
 
-    \    { \"name\": \"Mouse\", \"price\": 1200, \"quantity\": 20, \"category\": \"Electronics\", \"image\": \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpisces.bbystatic.com%2Fimage2%2FBestBuy_US%2Fimages%2Fproducts%2Ffb8c2969-570c-495a-a3eb-9773d01d68a8.jpg&f=1&nofb=1&ipt=c87f7056c0d5c2e792dff1ad9d1ce1e6187c4c221b89d99e36fd21f580e82f8c&ipo=images\" },\r
+    \    { \"name\": \"Mouse\", \"price\": 1200, \"quantity\": 20, \"category\":
+    \"Electronics\", \"image\":
+    \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpisces.bbysta\
+    tic.com%2Fimage2%2FBestBuy_US%2Fimages%2Fproducts%2Ffb8c2969-570c-495a-a3eb\
+    -9773d01d68a8.jpg&f=1&nofb=1&ipt=c87f7056c0d5c2e792dff1ad9d1ce1e6187c4c221b\
+    89d99e36fd21f580e82f8c&ipo=images\" },\r
 
-    \    { \"name\": \"Monitor\", \"price\": 20000, \"quantity\": 20, \"category\": \"Electronics\", \"image\": \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreamstime.com%2Fb%2Fcomputer-monitor-9797422.jpg&f=1&nofb=1&ipt=6b96ca55cadf6ea0e1eb2c57a2a98cb554272ea33f257c1a5b53674036c094d1&ipo=images\" },\r
+    \    { \"name\": \"Monitor\", \"price\": 20000, \"quantity\": 20,
+    \"category\": \"Electronics\", \"image\":
+    \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fthumbs.dreams\
+    time.com%2Fb%2Fcomputer-monitor-9797422.jpg&f=1&nofb=1&ipt=6b96ca55cadf6ea0\
+    e1eb2c57a2a98cb554272ea33f257c1a5b53674036c094d1&ipo=images\" },\r
 
-    \    { \"name\": \"Pencil\", \"price\": 30, \"quantity\": 20, \"category\": \"Stationary\", \"image\": \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vecteezy.com%2Fsystem%2Fresources%2Fpreviews%2F009%2F554%2F131%2Flarge_2x%2Fsharpened-detailed-pencil-isolated-on-white-background-3d-illustration-photo.jpg&f=1&nofb=1&ipt=59ad56273f8fe630da216fd1fbae279192180c50b5a0390928f7a4eaa2f2e6d6&ipo=images\" }\r
+    \    { \"name\": \"Pencil\", \"price\": 30, \"quantity\": 20, \"category\":
+    \"Stationary\", \"image\":
+    \"https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.vectee\
+    zy.com%2Fsystem%2Fresources%2Fpreviews%2F009%2F554%2F131%2Flarge_2x%2Fsharp\
+    ened-detailed-pencil-isolated-on-white-background-3d-illustration-photo.jpg\
+    &f=1&nofb=1&ipt=59ad56273f8fe630da216fd1fbae279192180c50b5a0390928f7a4eaa2f\
+    2e6d6&ipo=images\" }\r
 
     ]"
 auth:
   type: bearer
   credentials:
-    token: "{{json_web_token_1een}}"
+    token: "{{json_web_token_1e3d}}"
 order: 3000

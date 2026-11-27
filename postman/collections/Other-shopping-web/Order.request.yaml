@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://100.53.185.174:8000/order
+method: POST
+body:
+  type: json
+  content: '{ "items": [{ "productId": "COPY_AN_ID", "quantity": 2 }], "address": "Kathmandu" }'
+order: 6000

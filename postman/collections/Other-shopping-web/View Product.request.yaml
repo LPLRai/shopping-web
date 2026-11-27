@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://100.53.185.174:8000/product
+method: GET
+order: 4000

@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://100.53.185.174/api/user/register
+method: POST
+body:
+  type: json
+  content: '{ "name": "Rai", "email": "rai@test.com", "password": "qwerty" }'
+order: 1000

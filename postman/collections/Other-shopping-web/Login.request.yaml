@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://100.53.185.174:8000/user/login
+method: POST
+body:
+  type: json
+  content: '{ "email": "rai@test.com", "password": "qwerty" }'
+order: 2000
